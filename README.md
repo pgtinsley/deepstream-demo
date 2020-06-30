@@ -23,13 +23,13 @@ Download Python Sample Apps & Bindings:
 developer.nvidia.com/python-sample-apps-bindings-v09
 
 Extract Apps & Bindings:
-tar xf ds_pybind_v0.9.tbz2 -C <DeepStream ROOT>/sources
+- tar xf ds_pybind_v0.9.tbz2 -C <DeepStream ROOT>/sources
 
-cd <DeepStream ROOT>/sources/python/apps/deepstream-test3
+- cd <DeepStream ROOT>/sources/python/apps/deepstream-test3
 
 Copy/overwrite this deepstream_test_3.py file into deepstream-test3.
 
 Run:
-python3 deepstream_test_3.py file:/opt/nvidia/deepstream/deepstream/sources/python/apps/deepstream-test3/office.mp4 
+- python3 deepstream_test_3.py file:/opt/nvidia/deepstream/deepstream/sources/python/apps/deepstream-test3/office.mp4 
 
 Note: the uri has to be preceded by "file:" and the ABSOLUTE path to the video file.
